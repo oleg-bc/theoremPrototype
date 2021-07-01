@@ -1,0 +1,24 @@
+{
+  "name": "theoremprototype",
+  "version": "1.0.0",
+  "description": "Automated tests of demoblaze webapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleg-bc/theoremPrototype.git"
+  },
+  "keywords": [
+    "TestCafe",
+    "tests",
+    "automation"
+  ],
+  "author": "Oleg H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleg-bc/theoremPrototype/issues"
+  },
+  "homepage": "https://github.com/oleg-bc/theoremPrototype#readme"
+}
