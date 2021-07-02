@@ -1,6 +1,6 @@
 import { Selector, t } from 'testcafe'
-import { setMouseDownDelay, enableMouseDownDelay } from './helpters/mouseDown';
-import { userName, userPasswd, login } from './helpters/signupTest';
+import { setMouseDownDelay, enableMouseDownDelay } from './helpers/mouseDown';
+import { userName, userPasswd, login } from './helpers/signupTest';
 
 //signup selectors
 const signupLink = Selector('#signin2');
