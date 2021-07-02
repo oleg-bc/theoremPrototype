@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Automated tests of demoblaze webapp",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "testcafe chrome *.js"
   },
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/oleg-bc/theoremPrototype/issues"
   },
-  "homepage": "https://github.com/oleg-bc/theoremPrototype#readme"
+  "homepage": "https://github.com/oleg-bc/theoremPrototype#readme",
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
 }
