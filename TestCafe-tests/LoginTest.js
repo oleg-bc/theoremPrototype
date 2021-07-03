@@ -16,7 +16,6 @@ fixture `Verify login functionality scnearios`
         await t.expect(welcomeMsg.exists).ok
         })
 
-
     test('Test login error path', async t => {
             login(wrongName,wrongPasswd);
             await t

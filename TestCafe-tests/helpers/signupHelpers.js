@@ -24,7 +24,6 @@ const loginUserName = Selector('#loginusername');
 const loginPassword = Selector('#loginpassword');
 const loginButton = Selector('.btn').withText('Log in');
 const welcomeMsg = Selector('#nameofuser').withText('Welcome Oleg').visible;
-
 const userNameLabel = Selector('.form-control-label').withText('Username:').visible
 
 export async function login(login,pass){

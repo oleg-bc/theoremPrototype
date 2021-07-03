@@ -8,10 +8,7 @@ const prodOnPage = Selector("#tdbodyid")
         .child('.card-block')
         .child('card-title')
         .child('.hrefch')
-        .withText('Nokia lumia 1520');//param this value
-
-//prod selectors
-const prod1 = Selector('.hrfch').withText('Nokia lumia 1520'); //refactor to parametarize based on product availability
+        .withText('Nokia lumia 1520');//TODO: parameterize this value
 
 fixture `Verify shopping cart`
 .page `https://www.demoblaze.com/index.html`
@@ -22,7 +19,7 @@ fixture `Verify shopping cart`
         await t.expect(prodTwoLoaded).ok()
         
         .doubleClick(Selector('.hrefch').withText('Nokia'))
-        const prodPageLoaded = Selector('div').child('.name').withText('Nokia lumia 1520').exists;
+        const prodPageLoaded = Selector('div').child('.name').withText('Nokia lumia 1520').exists;  //TODO: Make this check dynamic  
         await t.expect(prodPageLoaded).ok()
         await t.hover(Selector('.btn-lg').withText('Add to cart'))
         await t.setNativeDialogHandler(() => true)

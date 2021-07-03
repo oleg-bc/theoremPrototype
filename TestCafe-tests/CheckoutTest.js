@@ -32,7 +32,6 @@ fixture `Verify Checkout Functionality`
         await t
         await fillCart();
         await t.click(buyBtn)
-        //.debug()
         const modalLoaded = modalTop.exists;
         await t.expect(modalLoaded).ok()
         .hover(nameField)

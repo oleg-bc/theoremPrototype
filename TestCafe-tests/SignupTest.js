@@ -20,7 +20,6 @@ fixture `Verify signup scenarios`
         await t
         .typeText(signupUserName,newUser)
         .typeText(signupPasswd,newPass)
-        //await t.click(signupBtn)
         await t.setNativeDialogHandler(() => true)
         .click(signupBtn)
         login(newUser,userPasswd)
