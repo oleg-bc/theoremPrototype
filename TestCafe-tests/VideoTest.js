@@ -16,6 +16,8 @@ await t.expect(playerLoaded).ok()
 .hover(playBtn)
 await setMouseDownDelay(1000);
 await t.hover(playBtn)
+
+//below actions are redundant at the moment. The reason for this is despite video controls working well with human input, they are not responding to testdriver input
 .doubleClick(playBtn)
 .wait(1000)
 .click(playBtn)

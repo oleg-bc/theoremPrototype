@@ -8,7 +8,7 @@ const signupPasswd = Selector('#sign-password');
 const signupBtn = Selector('.btn').withText('Sign up');
 let newUser = userName;
 let newPass = userPasswd;
-
+// fixture below signups a new user. The info used will be new every time and will be supplied by faker library which is referenced in signupHelpers file
 fixture `Verify signup scenarios`
 .page `https://www.demoblaze.com/index.html`
 

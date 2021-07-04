@@ -11,7 +11,7 @@ const prod = Selector('.col-md-6')
 fixture `Verify navigation and page verification`
 .page `https://www.demoblaze.com/index.html`
 
-test('Test page loaded', async t => {
+test('Test landing page loaded', async t => {
 await t 
     .expect(navbar.signupLink.exists).ok()
     .expect(navbar.loginLink.exists).ok()
