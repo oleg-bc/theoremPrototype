@@ -11,11 +11,17 @@
 
  **Bug Report**:
  bug#000001
+ 
  Summary: search functionality not available.
+
  Requirement:  "Searching for phones "
+
  Expected UI/Behavior: search box and/or search button available.
+
  Actual Result: no search controls available
+
  Screenshots/Videos: NA
+
 
 ## EXAMPLE TEST OUTPUT
 
@@ -32,22 +38,31 @@ NOTE: failing test left in failing state on purpose. As an indication of work in
  √ Test-shopping-cart
 
  Verify navigation and page verification
+
  √ Test page loaded
+
  √ Test nav to and verify phones
+
  √ Test nav to and verify laptops
+
  √ Test nav to and verify monitors
 
  Verify login functionality scnearios
+
  √ Test login happy path
+
  √ Test login error path
 
  Verify shopping cart
+
  √ Test-shopping-cart
 
  Verify signup scenarios
+
  √ Verify signup functionality with Jace89 and zVQY6Oud_p4Jut_
 
  verify video play functionality
+
  × Video-test
 
    1) AssertionError: expected false to be truthy
@@ -71,7 +86,9 @@ NOTE: failing test left in failing state on purpose. As an indication of work in
 
 
 
+
  1/10 failed (1m 36s)
+
 npm ERR! Test failed.  See above for more details.`
 
 ## future direction
